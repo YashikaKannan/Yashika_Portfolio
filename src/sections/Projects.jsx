@@ -36,7 +36,7 @@ const projects = [
     tech: 'Python, Machine Learning, Time-Series Analysis, scikit-learn and React',
     category: 'ai/ml',
     github: 'https://github.com/YashikaKannan/Stock_Trend_Predictor_',
-    live: 'https://github.com/YashikaKannan/Stock_Trend_Predictor_',
+    live: 'https://stock-trend-predictor-flame.vercel.app',
   },
    {
     name: 'Legal Document Demsifier',
