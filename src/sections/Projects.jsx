@@ -26,7 +26,7 @@ const projects = [
     tech: 'React, Python, FastAPI, SQLite',
     category: 'frontend',
     github: 'https://github.com/YashikaKannan/Document_Life_Tracker',
-    live: 'https://github.com/YashikaKannan/Document_Life_Tracker',
+    live: 'https://document-life-tracker.vercel.app/',
   },
   {
     name: 'Stock Trend Predictor',
