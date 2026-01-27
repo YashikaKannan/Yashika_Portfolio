@@ -1,33 +1,36 @@
 import React, { useState } from 'react'
 import useInView from '../hooks/useInView'
-import { FaAws, FaFacebook } from 'react-icons/fa'
-import { SiTensorflow } from 'react-icons/si'
+import { SiCisco } from 'react-icons/si'
+import { SiIbm } from 'react-icons/si'
+import { SiGooglecloud } from 'react-icons/si'
 import { FiExternalLink } from 'react-icons/fi'
+import { FaGraduationCap } from 'react-icons/fa'
+
 
 const certifications = [
   {
-    title: 'AWS Certified Solutions Architect',
-    issuer: 'AMAZON WEB SERVICES',
-    icon: <FaAws size={36} className="text-orange-400" />,
+    title: 'Introduction to CyberSecurity',
+    issuer: 'CISCO Networking Academy',
+    icon: <SiCisco size={36} className="text-sky-400" />,
+    link: 'src/public/certificates/Introduction_to_Cybersecurity_cisco.pdf',
+  },
+  {
+    title: 'NPTEL - Cloud Computing',
+    issuer: 'Issued: SEPT 2025',
+    icon: <FaGraduationCap size={34} className="text-yellow-400" />,
     link: '#',
   },
   {
-    title: 'NPTEL - Python for Data Science',
-    issuer: 'Issued: May 2025',
-    icon: <div className="text-green-400 text-4xl">✔</div>,
-    link: '#',
+    title: 'Introduction to AI',
+    issuer: 'IBM Skills Build ',
+    icon: <SiIbm size={34} className="text-blue-400" />,
+    link: 'src/public/certificates/Completion Certificate _ SkillsBuild.pdf',
   },
   {
-    title: 'Meta Front-End Developer',
-    issuer: 'COURSERA',
-    icon: <FaFacebook size={34} className="text-blue-500" />,
-    link: '#',
-  },
-  {
-    title: 'TensorFlow Developer Certificate',
+    title: 'Introduction to Large Language Models',
     issuer: 'GOOGLE',
-    icon: <SiTensorflow size={36} className="text-orange-300" />,
-    link: '#',
+    icon: <SiGooglecloud size={36} className="text-[#4285F4]" />,
+    link: 'src/public/certificates/Introduction_to_LLM.png',
   },
 ]
 
