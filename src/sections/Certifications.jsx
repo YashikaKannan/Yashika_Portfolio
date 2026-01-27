@@ -12,7 +12,7 @@ const certifications = [
     title: 'Introduction to CyberSecurity',
     issuer: 'CISCO Networking Academy',
     icon: <SiCisco size={36} className="text-sky-400" />,
-    link: 'src/public/certificates/Introduction_to_Cybersecurity_cisco.pdf',
+    link: 'public/certificates/Introduction_to_Cybersecurity_cisco.pdf',
   },
   {
     title: 'NPTEL - Cloud Computing',
@@ -24,13 +24,13 @@ const certifications = [
     title: 'Introduction to AI',
     issuer: 'IBM Skills Build ',
     icon: <SiIbm size={34} className="text-blue-400" />,
-    link: 'src/public/certificates/Completion Certificate _ SkillsBuild.pdf',
+    link: 'public/certificates/Completion Certificate _ SkillsBuild.pdf',
   },
   {
     title: 'Introduction to Large Language Models',
     issuer: 'GOOGLE',
     icon: <SiGooglecloud size={36} className="text-[#4285F4]" />,
-    link: 'src/public/certificates/Introduction_to_LLM.png',
+    link: 'public/certificates/Introduction_to_LLM.png',
   },
 ]
 
