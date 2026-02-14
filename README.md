@@ -1,4 +1,6 @@
-# Yashika K — Personal Portfolio (React + Vite + Tailwind)
+# Yashika K - Personal Portfolio 
+
+Deployed link: yashikakannan.me
 
 
 ## Features
