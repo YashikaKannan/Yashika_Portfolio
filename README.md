@@ -1,6 +1,6 @@
 # Yashika K - Personal Portfolio 
 
-Deployed link: yashikakannan.me
+Deployed link: https://www.yashikakannan.me/
 
 
 ## Features
