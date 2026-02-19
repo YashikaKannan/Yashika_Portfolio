@@ -9,7 +9,7 @@ const educationData = [
     institution: 'R.M.K. College of Engineering and Technology',
     range: '2023 - Present',
     details:
-      'Grade: 8.34 (upto 5th sem)'
+      'Grade: 8.42 (upto 5th sem)'
   },
   {
     id: 2,
