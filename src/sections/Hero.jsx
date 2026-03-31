@@ -7,7 +7,7 @@ import useInView from '../hooks/useInView'
 
 export default function Hero() {
   const [ref, visible] = useInView()
-  const words = ['Frontend Developer', 'AI & Data Science Student', 'React Developer']
+  const words = ['Aspiring SDE', 'Full Stack Developer', 'AI Developer', 'ML & DL Developer']
   const typed = useTypewriter(words, {loop: 0, typeSpeed: 120, deleteSpeed: 80, delaySpeed: 10000000});
 
 
