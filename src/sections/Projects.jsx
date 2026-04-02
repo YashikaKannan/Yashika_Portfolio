@@ -6,8 +6,20 @@ import legalai from '../assets/projects/legalai.png'
 import medatlas from '../assets/projects/medatlas.png'
 import stocktrend from '../assets/projects/stocktrend.png'
 import doc from '../assets/projects/doc.png'
+import echotwin from '../assets/projects/doc.png'
+import herwatch from '../assets/projects/doc.png'
 
 const projects = [
+  {
+    name: 'EchoTwin',
+    image: echotwin,
+    description:
+      'EchoTwin is an IoT-enabled AI system for predictive maintenance that monitors machine health using real-time acoustic signals. Microphones connected via embedded hardware capture sound data near critical components like bearings. The system processes these signals using machine learning and anomaly detection to identify early signs of wear and failure, reducing downtime and maintenance costs in industrial environments.',
+    tech: 'IoT, Python, Machine Learning, Signal Processing, FastAPI, React, Arduino, INMP441 Mic',
+    category: 'ai/ml',
+    github: 'https://github.com/YashikaKannan/EchoTwin',
+    live: '',
+  },
   {
     name: 'MedAtlas',
     image: medatlas,
@@ -38,7 +50,7 @@ const projects = [
     github: 'https://github.com/YashikaKannan/Stock_Trend_Predictor_',
     live: 'https://stock-trend-predictor-flame.vercel.app',
   },
-   {
+  {
     name: 'Legal Document Demsifier',
     image: legalai,
     description:
@@ -48,6 +60,16 @@ const projects = [
     github: 'https://github.com/YashikaKannan/Document_Life_Tracker',
     live: 'https://github.com/YashikaKannan/Document_Life_Tracker',
   },
+  {
+  name: 'HerWatch',
+  image: herwatch,
+  description:
+    'HerWatch is a real-time women safety platform designed to provide instant SOS assistance during emergencies. With a single tap, users can trigger alerts that share live location with trusted contacts and enable continuous tracking. The system focuses on rapid response, accessibility, and reliable communication to enhance personal safety.',
+  tech: 'React, Node.js, Express, MongoDB, Geolocation API, Real-time Tracking',
+  category: 'fullstack',
+  github: 'https://github.com/YashikaKannan/HerWatch',
+  live: '',
+},
 ]
 
 export default function Projects() {
