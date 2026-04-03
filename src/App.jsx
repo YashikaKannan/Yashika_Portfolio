@@ -15,7 +15,7 @@ export default function App() {
   return (
     <div className="font-sans bg-gray-900 text-white min-h-screen">
       <Navbar />
-      <main className="container mx-auto px-4 lg:px-8">
+      <main className="pt-20 container mx-auto px-4 lg:px-8">
         <Hero />
         <About />
         <Education />

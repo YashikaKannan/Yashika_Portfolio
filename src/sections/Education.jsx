@@ -24,19 +24,19 @@ const educationData = [
 const workData = [
   {
     id: 1,
-    title: 'Cybersecurity Intern',
-    company: 'Edunet Foundation',
-    range: 'Dec 2025',
-    details:
-      'Learnign Cybersecurity with GenAi'
-  },
-  {
-    id: 2,
     title: 'PowerBi and Power Platform Intern',
     company: 'Power Centre Private Limited',
     range: 'Jun 2025 - Jul 2025',
     details:
       'Delivered websites and interactive dashboards for small businesses.'
+  },
+  {
+    id: 2,
+    title: 'AI Intern',
+    company: 'Edunet Foundation',
+    range: 'Apr 2025 - May 2025',
+    details:
+      'Learned the Foundations of AI with hands-on projects.'
   }
 ]
 

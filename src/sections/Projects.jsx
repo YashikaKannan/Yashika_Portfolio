@@ -6,8 +6,8 @@ import legalai from '../assets/projects/legalai.png'
 import medatlas from '../assets/projects/medatlas.png'
 import stocktrend from '../assets/projects/stocktrend.png'
 import doc from '../assets/projects/doc.png'
-import echotwin from '../assets/projects/doc.png'
-import herwatch from '../assets/projects/doc.png'
+import echotwin from '../assets/projects/echoTwin.png'
+import herwatch from '../assets/projects/herWatch.png'
 
 const projects = [
   {
@@ -15,7 +15,7 @@ const projects = [
     image: echotwin,
     description:
       'EchoTwin is an IoT-enabled AI system for predictive maintenance that monitors machine health using real-time acoustic signals. Microphones connected via embedded hardware capture sound data near critical components like bearings. The system processes these signals using machine learning and anomaly detection to identify early signs of wear and failure, reducing downtime and maintenance costs in industrial environments.',
-    tech: 'IoT, Python, Machine Learning, Signal Processing, FastAPI, React, Arduino, INMP441 Mic',
+    tech: ['IoT', 'Python', 'Machine Learning', 'Signal Processing', 'FastAPI', 'React', 'Arduino', 'INMP441 Mic'],
     category: 'ai/ml',
     github: 'https://github.com/YashikaKannan/EchoTwin',
     live: '',
@@ -25,7 +25,7 @@ const projects = [
     image: medatlas,
     description:
       'AI-powered provider directory validation system that verifies, enriches, and audits healthcare provider data using a multi-agent pipeline with confidence scoring and discrepancy detection.',
-    tech: 'React, Python, FastAPI, SQLite',
+    tech: ['React', 'Python', 'FastAPI', 'SQLite'],
     category: 'all',
     github: 'https://github.com/YashikaKannan/MedAtlas',
     live: 'https://github.com/YashikaKannan/MedAtlas',
@@ -34,9 +34,9 @@ const projects = [
     name: 'Document Life Tracker',
     image: doc,
     description:
-      'Interactive data visualization dashboard for exploring datasets with filters, charts, and export options.',
-    tech: 'React, Python, FastAPI, SQLite',
-    category: 'frontend',
+      'Document Life Tracker is a smart system that helps users securely store and manage important documents by tracking their expiry dates. It automatically sends timely email reminders before deadlines, ensuring users never miss renewals and avoid penalties or disruptions.',
+    tech: ['React', 'Python', 'FastAPI', 'MySQL', 'SMTP'],
+    category: 'fullstack',
     github: 'https://github.com/YashikaKannan/Document_Life_Tracker',
     live: 'https://document-life-tracker.vercel.app/',
   },
@@ -44,8 +44,9 @@ const projects = [
     name: 'Stock Trend Predictor',
     image: stocktrend,
     description:
-      'A machine learning project that analyzes historical stock price data to predict future market trends. Implemented data preprocessing, feature engineering, and model evaluation to understand stock movement patterns.',
-    tech: 'Python, Machine Learning, Time-Series Analysis, scikit-learn and React',
+      'Stock Trend Predictor is a full-stack platform for analyzing and forecasting stock trends. It allows users to compare stocks, visualize price movements, and analyze indicators like Moving Average and RSI, while using an LSTM model to predict near-term prices with real-time data support.',
+    tech:
+      ['React', 'Python', 'FastAPI', 'TensorFlow/Keras (LSTM)', 'Scikit-learn', 'Pandas', 'NumPy', 'Recharts', 'Time-Series Analysis', 'yFinance API', 'Twelve Data API', 'Docker'],
     category: 'ai/ml',
     github: 'https://github.com/YashikaKannan/Stock_Trend_Predictor_',
     live: 'https://stock-trend-predictor-flame.vercel.app',
@@ -55,7 +56,7 @@ const projects = [
     image: legalai,
     description:
       'A generative AI system that simplifies complex legal documents into clear, easy-to-understand summaries. The application also analyzes documents to identify potential risks and highlight key pros and cons, helping users quickly understand legal content while preserving data privacy.',
-    tech: 'Python, Transformers, FastAPI, Vertex-ai',
+    tech: ['Python', 'Transformers', 'FastAPI', 'Vertex-ai'],
     category: 'ai/ml',
     github: 'https://github.com/YashikaKannan/Document_Life_Tracker',
     live: 'https://github.com/YashikaKannan/Document_Life_Tracker',
@@ -65,7 +66,7 @@ const projects = [
   image: herwatch,
   description:
     'HerWatch is a real-time women safety platform designed to provide instant SOS assistance during emergencies. With a single tap, users can trigger alerts that share live location with trusted contacts and enable continuous tracking. The system focuses on rapid response, accessibility, and reliable communication to enhance personal safety.',
-  tech: 'React, Node.js, Express, MongoDB, Geolocation API, Real-time Tracking',
+  tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Geolocation API', 'Real-time Tracking'],
   category: 'fullstack',
   github: 'https://github.com/YashikaKannan/HerWatch',
   live: '',
@@ -98,7 +99,7 @@ export default function Projects() {
         <div className="flex justify-center gap-3 mb-8 flex-wrap">
           {[
             { label: 'All', value: 'all' },
-            { label: 'Frontend', value: 'frontend' },
+            { label: 'FullStack', value: 'fullstack' },
             { label: 'AI / ML', value: 'ai/ml' },
           ].map((filter) => (
             <button

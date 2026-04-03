@@ -21,11 +21,10 @@ export default function Navbar() {
     const handleScroll = () => {
       const currentScrollY = window.scrollY
 
-      if (currentScrollY > lastScrollY && currentScrollY > 80) {
-        // scrolling down
+      // Hide navbar whenever user has scrolled past threshold (both up and down)
+      if (currentScrollY > 80) {
         setShow(false)
       } else {
-        // scrolling up
         setShow(true)
       }
 
@@ -38,12 +37,9 @@ export default function Navbar() {
 
   return (
     <header
-      className={`
-        sticky top-0 z-40
-        transition-transform duration-300 ease-in-out
-        ${show ? 'translate-y-0' : '-translate-y-full'}
-        bg-gradient-to-b from-gray-900/80 to-transparent backdrop-blur
-      `}
+      className={`fixed top-0 left-0 w-full z-50 transition-transform duration-300 ease-in-out transform ${
+        show ? 'translate-y-0' : '-translate-y-full'
+      } bg-gradient-to-b from-gray-900/80 to-transparent backdrop-blur`}
     >
       <nav className="container mx-auto px-4 lg:px-8 py-4 flex items-center justify-between">
         <div className="text-2xl font-bold">Yashika Kannan</div>
