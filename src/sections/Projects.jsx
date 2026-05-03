@@ -8,9 +8,19 @@ import stocktrend from '../assets/projects/stocktrend.png'
 import doc from '../assets/projects/doc.png'
 import echotwin from '../assets/projects/echoTwin.png'
 import herwatch from '../assets/projects/herWatch.png'
+import votewise from '../assets/projects/votewise.png'
 
 const projects = [
   {
+    name: 'VoteWise AI',
+    image: votewise,
+    description:
+      'VoteWise AI is an intelligent election companion that guides users through the complete voting process using a structured journey, decision-based logic, and AI-powered explanations. It combines a rule-based decision engine with Google Gemini to provide personalized guidance for first-time voters, NRIs, and users who have changed constituencies. The system also includes simulation-based learning, readiness tracking, and multilingual support.',
+    tech: 'FastAPI, React, TypeScript, Gemini API, Google Cloud Run, Firestore, Tailwind CSS',
+    category: 'ai/ml',
+    github: 'https://github.com/YashikaKannan/VoteWise-AI',
+    live: 'https://votewise-ai-pro.vercel.app',
+  },
     name: 'EchoTwin',
     image: echotwin,
     description:
