@@ -21,6 +21,7 @@ const projects = [
     github: 'https://github.com/YashikaKannan/VoteWise-AI',
     live: 'https://votewise-ai-pro.vercel.app',
   },
+  {
     name: 'EchoTwin',
     image: echotwin,
     description:

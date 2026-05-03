@@ -59,7 +59,7 @@ export default function Footer() {
 
         {/* BOTTOM */}
         <div className="text-center text-sm text-gray-400">
-          © 2025 All rights reserved.<br />
+          © 2026 All rights reserved.<br />
           Made by{' '} <span className="text-white font-medium">Yashika Kannan</span>
         </div>
       </div>
